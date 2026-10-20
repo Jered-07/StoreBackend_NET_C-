@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "StoreBackend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/StoreBackend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StoreBackend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.Domain/StoreBackend.Domain.csproj",
+      "msbuildProject": "../StoreBackend.Domain/StoreBackend.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "StoreBackend.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jered\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+              "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

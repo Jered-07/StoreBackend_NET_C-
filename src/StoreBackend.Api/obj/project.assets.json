@@ -36,6 +36,80 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "StoreBackend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/StoreBackend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.Domain.dll": {}
+        }
+      },
+      "StoreBackend.DomainService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "StoreBackend.Domain": "1.0.0",
+          "StoreBackend.Dto": "1.0.0",
+          "StoreBackend.Exceptions": "1.0.0",
+          "StoreBackend.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreBackend.DomainService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.DomainService.dll": {}
+        }
+      },
+      "StoreBackend.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/StoreBackend.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.Dto.dll": {}
+        }
+      },
+      "StoreBackend.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/StoreBackend.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.Exceptions.dll": {}
+        }
+      },
+      "StoreBackend.Facade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "StoreBackend.DomainService": "1.0.0",
+          "StoreBackend.Dto": "1.0.0",
+          "StoreBackend.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreBackend.Facade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.Facade.dll": {}
+        }
+      },
+      "StoreBackend.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "StoreBackend.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreBackend.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreBackend.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -75,11 +149,43 @@
         "microsoft.openapi.2.12.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "StoreBackend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.Domain/StoreBackend.Domain.csproj",
+      "msbuildProject": "../StoreBackend.Domain/StoreBackend.Domain.csproj"
+    },
+    "StoreBackend.DomainService/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.DomainService/StoreBackend.DomainService.csproj",
+      "msbuildProject": "../StoreBackend.DomainService/StoreBackend.DomainService.csproj"
+    },
+    "StoreBackend.Dto/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.Dto/StoreBackend.Dto.csproj",
+      "msbuildProject": "../StoreBackend.Dto/StoreBackend.Dto.csproj"
+    },
+    "StoreBackend.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.Exceptions/StoreBackend.Exceptions.csproj",
+      "msbuildProject": "../StoreBackend.Exceptions/StoreBackend.Exceptions.csproj"
+    },
+    "StoreBackend.Facade/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.Facade/StoreBackend.Facade.csproj",
+      "msbuildProject": "../StoreBackend.Facade/StoreBackend.Facade.csproj"
+    },
+    "StoreBackend.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../StoreBackend.Infrastructure/StoreBackend.Infrastructure.csproj",
+      "msbuildProject": "../StoreBackend.Infrastructure/StoreBackend.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.12"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.12",
+      "StoreBackend.Dto >= 1.0.0",
+      "StoreBackend.Facade >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -88,9 +194,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Api\\StoreBackend.csproj",
-      "projectName": "StoreBackend",
-      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Api\\StoreBackend.csproj",
+      "projectUniqueName": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
+      "projectName": "StoreBackend.Api",
+      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Api\\StoreBackend.Api.csproj",
       "packagesPath": "C:\\Users\\jered\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Api\\obj\\",
       "projectStyle": "PackageReference",
@@ -107,7 +213,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+              "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
+            },
+            "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Facade\\StoreBackend.Facade.csproj": {
+              "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\src\\StoreBackend.Facade\\StoreBackend.Facade.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
