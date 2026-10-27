@@ -30,14 +30,4 @@ public class ProductRepository : IProductRepository
     {
         _context.Products.Remove(product);
     }
-
-    Task<List<Product>> IProductRepository.GetAllAsync()
-    {
-        throw new NotImplementedException();
-    }
-
-    Task<Product?> IProductRepository.GetByIdAsync(Guid productId)
-    {
-        throw new NotImplementedException();
-    }
 }
