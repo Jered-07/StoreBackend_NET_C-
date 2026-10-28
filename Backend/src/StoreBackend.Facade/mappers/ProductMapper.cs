@@ -15,7 +15,7 @@ public class ProductMapper
     {
         return new ProductDto
         {
-            ProductResourceId = product.ProductResourceId,
+            ProductResourseId = product.ProductResourseId,
             Name = product.Name
         };
     }

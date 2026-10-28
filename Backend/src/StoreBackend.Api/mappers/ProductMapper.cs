@@ -8,7 +8,7 @@ public class ProductMapper
     {
         return new ProductDto
         {
-            ProductResourceId = model.ProductResourseId,
+            ProductResourseId = model.ProductResourseId,
             Name = model.Name
         };
     }
@@ -22,7 +22,7 @@ public class ProductMapper
     {
         return new ProductResponseModel
         {
-            ProductResourceId = product.ProductResourceId,
+            ProductResourseId = product.ProductResourseId,
             Name = product.Name
         };
     }

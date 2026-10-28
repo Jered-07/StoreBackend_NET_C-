@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {}
+    "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
+    "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
         "projectName": "StoreBackend.Exceptions",
-        "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
+        "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj",
         "packagesPath": "C:\\Users\\jered\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Exceptions\\obj\\",
+        "outputPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jered\\AppData\\Roaming\\NuGet\\NuGet.Config"

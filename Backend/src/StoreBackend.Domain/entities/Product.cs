@@ -11,7 +11,8 @@ public class Product
     public int ProductId { get; private set; }
  
     [Required]
-    public Guid ProductResourceId { get; set; }
+    [Column("ProductResourceId")]
+    public Guid ProductResourseId { get; set; }
 
     [Column("Name")]
     [StringLength(50)]

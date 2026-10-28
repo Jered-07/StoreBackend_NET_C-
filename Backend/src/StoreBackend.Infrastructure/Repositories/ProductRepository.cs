@@ -17,7 +17,7 @@ public class ProductRepository : IProductRepository
  
     public async Task<Product?> GetByIdAsync(Guid productId)
     {
-        return await _context.Products.FirstOrDefaultAsync(p => p.ProductResourceId == productId);
+        return await _context.Products.FirstOrDefaultAsync(p => p.ProductResourseId == productId);
     }
  
     public async Task<Product> AddAsync(Product product)

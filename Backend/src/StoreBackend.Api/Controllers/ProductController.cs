@@ -47,7 +47,7 @@ namespace StoreBackend.Api.Controllers
             var dto = ProductMapper.ToDto(product);
             var addedProduct = await productFacade.AddAsync(dto);
             var model = ProductMapper.ToModel(addedProduct);
-            return CreatedAtAction(nameof(GetProduct), new{id = model.ProductResourceId }, model);
+            return CreatedAtAction(nameof(GetProduct), new{id = model.ProductResourseId }, model);
 
         }
 

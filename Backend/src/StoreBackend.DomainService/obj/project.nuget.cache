@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BsNs1alqkUE=",
+  "dgSpecHash": "fek58GJkEdg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+  "projectFilePath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jered\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\jered\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -67,9 +67,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
-      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "filePath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"
@@ -79,9 +79,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
-      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "filePath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"

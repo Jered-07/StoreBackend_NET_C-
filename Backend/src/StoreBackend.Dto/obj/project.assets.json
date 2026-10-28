@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+      "projectUniqueName": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
       "projectName": "StoreBackend.Dto",
-      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
+      "projectPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj",
       "packagesPath": "C:\\Users\\jered\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_C#\\Backend\\src\\StoreBackend.Dto\\obj\\",
+      "outputPath": "C:\\Users\\jered\\OneDrive\\Documentos\\UCR\\Proyectos_Programados\\Programacion_Java_VSCode\\StoreBackend_NET_CSharp\\Backend\\src\\StoreBackend.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jered\\AppData\\Roaming\\NuGet\\NuGet.Config"
