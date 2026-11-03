@@ -17,7 +17,7 @@ public class ProductService : IProductService
     {
         var productEntity = new Product
         {
-            ProductResourseId = product.ProductResourseId,
+            ProductResourceId = product.ProductResourceId,
             Name = product.Name
         };
 

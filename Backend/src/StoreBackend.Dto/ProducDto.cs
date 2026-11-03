@@ -2,6 +2,6 @@
 
 public class ProductDto
 {
-    public Guid ProductResourseId{get; set;}
+    public Guid ProductResourceId{get; set;}
     public string? Name {get; set;}
 }

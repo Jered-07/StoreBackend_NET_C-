@@ -12,7 +12,7 @@ public class Product
  
     [Required]
     [Column("ProductResourceId")]
-    public Guid ProductResourseId { get; set; }
+    public Guid ProductResourceId { get; set; }
 
     [Column("Name")]
     [StringLength(50)]

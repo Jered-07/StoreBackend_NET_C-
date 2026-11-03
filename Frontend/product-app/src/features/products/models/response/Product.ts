@@ -1,5 +1,5 @@
 export interface Product{
     name: string;
-    productResourseId: string;
+    productResourceId: string;
 }
 
