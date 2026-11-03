@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreBackend.Facade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd953bce217ed11a7cd12fa4d55c048fee6bd4d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb89204777aa6f4de4202f7dbf6efac5d87b22bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreBackend.Facade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreBackend.Facade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
