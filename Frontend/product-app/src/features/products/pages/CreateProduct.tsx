@@ -56,15 +56,15 @@ export default function CreateProduct() {
     <div className="mx-auto max-w-xl">
       <Link
         to="/products"
-        className="mb-6 inline-flex rounded-md text-sm font-medium text-blue-600 hover:text-blue-800 focus-visible:outline-2 focus-visible:outline-blue-600"
+        className="mb-6 inline-flex rounded-md text-sm font-medium text-forest-600 hover:text-forest-800 focus-visible:outline-2 focus-visible:outline-forest-600"
       >
         ← Volver a productos
       </Link>
-      <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-        <h1 className="text-2xl font-bold tracking-tight text-slate-900">
+      <div className="rounded-3xl border border-cream-300 bg-white p-6 shadow-sm sm:p-8">
+        <h1 className="text-2xl font-bold tracking-tight text-forest-800">
           Agregar producto
         </h1>
-        <p className="mb-8 mt-2 text-sm leading-6 text-slate-500">
+        <p className="mb-8 mt-2 text-sm leading-6 text-ink-500">
           Completa la información para agregar un producto al catálogo.
         </p>
 
@@ -73,7 +73,7 @@ export default function CreateProduct() {
           <div>
             <label
               htmlFor="name"
-              className="mb-2 block text-sm font-medium text-gray-700"
+              className="mb-2 block text-sm font-medium text-ink-700"
             >
               Nombre del producto
             </label>
@@ -90,10 +90,11 @@ export default function CreateProduct() {
               })}
               aria-invalid={Boolean(errors.name)}
               aria-describedby={errors.name ? "name-error" : undefined}
-              className="w-full rounded-xl border border-slate-300 bg-slate-50 text-slate-900 placeholder:text-slate-400
-                         px-4 py-2 outline-none
-                         focus:border-blue-500 focus:ring-2
-                         focus:ring-blue-200"
+              className="w-full rounded-xl border border-cream-300 bg-cream-50 text-ink-900 placeholder:text-ink-500/60
+                         px-4 py-2.5 outline-none transition-colors
+                         focus:border-forest-500 focus:bg-white focus:ring-2
+                         focus:ring-forest-200
+                         aria-invalid:border-clay-600 aria-invalid:ring-clay-200"
             />
 
             {/* Mensaje de validación */}
@@ -101,7 +102,7 @@ export default function CreateProduct() {
               <p
                 id="name-error"
                 role="alert"
-                className="mt-2 text-sm text-red-600"
+                className="mt-2 text-sm text-clay-600"
               >
                 {errors.name.message}
               </p>
@@ -112,19 +113,19 @@ export default function CreateProduct() {
           {serverError && (
             <p
               role="alert"
-              className="rounded-lg bg-red-50 p-3 text-sm text-red-600"
+              className="rounded-lg border border-clay-200 bg-clay-50 p-3 text-sm text-clay-700"
             >
               {serverError}
             </p>
           )}
 
           {/* Botones */}
-          <div className="flex flex-col-reverse gap-3 border-t border-slate-100 pt-5 sm:flex-row sm:justify-end">
+          <div className="flex flex-col-reverse gap-3 border-t border-cream-200 pt-5 sm:flex-row sm:justify-end">
             <Link
               to="/products"
-              className="rounded-xl border border-slate-300 text-center text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-blue-600
-                         px-5 py-2 text-gray-700
-                         hover:bg-gray-100"
+              className="rounded-xl border border-cream-300 text-center text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-forest-600
+                         px-5 py-2.5 text-ink-700
+                         hover:bg-cream-200"
             >
               Cancelar
             </Link>
@@ -132,9 +133,9 @@ export default function CreateProduct() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="rounded-xl bg-blue-600 px-5 py-2.5 text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600
-                         font-medium text-white
-                         hover:bg-blue-700
+              className="rounded-xl bg-forest-700 px-5 py-2.5 text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest-600
+                         font-medium text-cream-50
+                         hover:bg-forest-800
                          disabled:cursor-not-allowed
                          disabled:opacity-50"
             >
