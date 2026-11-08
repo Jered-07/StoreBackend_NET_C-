@@ -26,7 +26,7 @@ const Navbar = () => {
           </strong>
         </NavLink>
 
-        <nav aria-label="Navegación principal" className="flex items-center gap-2">
+        <nav aria-label="Navegación principal" className="flex flex-wrap items-center gap-2">
           <NavLink to="/products" end className={navLinkClass}>
             Productos
           </NavLink>
@@ -34,6 +34,15 @@ const Navbar = () => {
           <NavLink to="/products/new" className={navLinkClass}>
             <Plus size={16} aria-hidden="true" />
             Nuevo producto
+          </NavLink>
+
+          <NavLink to="/users" end className={navLinkClass}>
+            Usuarios
+          </NavLink>
+
+          <NavLink to="/users/new" className={navLinkClass}>
+            <Plus size={16} aria-hidden="true" />
+            Nuevo usuario
           </NavLink>
         </nav>
       </div>
