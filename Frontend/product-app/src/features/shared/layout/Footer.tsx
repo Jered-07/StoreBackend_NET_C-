@@ -27,6 +27,10 @@ const Footer = () => {
           <Link to="/products" className={footerLinkClass}>Productos</Link>
 
           <Link to="/products/new" className={footerLinkClass}>Nuevo producto</Link>
+
+          <Link to="/users" className={footerLinkClass}>Usuarios</Link>
+
+          <Link to="/users/new" className={footerLinkClass}>Nuevo usuario</Link>
         </nav>
 
       </div>
